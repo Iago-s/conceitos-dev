@@ -1,17 +1,11 @@
 import React from 'react';
 
+import './Header.css';
+
 const Header = (props) => {
   return (
-    <header
-      style={{
-        width: '100%',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#DCDCDC',
-      }}
-    >
-      {props.title}
+    <header>
+      <h1>{props.title}</h1>
     </header>
   );
 };
